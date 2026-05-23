@@ -21,7 +21,7 @@ const products = [
   },
 ]
 
-export default function Faji cat() {
+export default function Fajicats() {
   const { ref, inView } = useInView()
 
   return (
@@ -62,7 +62,7 @@ export default function Faji cat() {
             </p>
             <div className="faj-actions">
               <a
-                href="https://wa.me/573145602688?text=Hola,%20me%20interesa%20Faji cat"
+                href="https://wa.me/573145602688?text=Hola,%20me%20interesa%20Faji%20cat"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-whatsapp"

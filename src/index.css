@@ -430,10 +430,11 @@ input, textarea, select { font-family: inherit; }
   break-inside:avoid; margin-bottom:16px;
   border-radius:var(--radius-md); overflow:hidden;
   position:relative; cursor:pointer;
-  will-change:transform;
-  transition:transform .35s ease, box-shadow .35s ease;
+  transition:box-shadow .35s ease;
 }
-.gal-item:hover { transform:scale(1.02); box-shadow:var(--shadow-strong); z-index:2; }
+.gal-item img { transition:transform .45s ease; will-change:transform; }
+.gal-item:hover { box-shadow:var(--shadow-strong); }
+.gal-item:hover img { transform:scale(1.07); }
 .gal-item:hover .gal-ov { opacity:1; }
 .gal-ph { width:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; }
 .gal-ph-ico { opacity:.32; color:#fff; }

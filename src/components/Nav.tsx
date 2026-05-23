@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 const links = [
   { href: '#about',    label: 'Sobre Mí' },
   { href: '#cv',       label: 'CV' },
-  { href: '#fajicats', label: 'Fajicats' },
+  { href: '#fajicats', label: 'Faji cat' },
   { href: '#gallery',  label: 'Galería' },
   { href: '#services', label: 'Servicios' },
   { href: '#contact',  label: 'Contacto' },

@@ -5,7 +5,7 @@ const tags = [
   'Medicina Veterinaria',
   'Bienestar Animal',
   'Inocuidad Alimentaria',
-  'Fundadora de Fajicats',
+  'Fundadora de Faji cat',
   'Colombia & España',
   'Productos para Mascotas',
 ]
@@ -62,7 +62,7 @@ export default function About() {
             y defensa del bienestar animal.
           </p>
           <p className="about-p">
-            Soy la fundadora de <strong>Fajicats</strong>, una marca colombiana de cuidado
+            Soy la fundadora de <strong>Faji cat</strong>, una marca colombiana de cuidado
             de mascotas especializada en prendas postquirúrgicas y accesorios de bienestar
             para gatos y perros — productos nacidos de mi propia experiencia clínica y
             amor por los animales.

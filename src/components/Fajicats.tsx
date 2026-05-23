@@ -21,7 +21,7 @@ const products = [
   },
 ]
 
-export default function Fajicats() {
+export default function Faji cat() {
   const { ref, inView } = useInView()
 
   return (
@@ -50,19 +50,19 @@ export default function Fajicats() {
             <div className="eyebrow eyebrow-gold">Marca Propia</div>
             <h2 className="sh2 sh2-cream">
               Conoce<br />
-              <em>Fajicats</em>
+              <em>Faji cat</em>
             </h2>
           </div>
           <div>
             <p className="faj-desc">
-              Fajicats es una marca colombiana de cuidado de mascotas creada para
+              Faji cat es una marca colombiana de cuidado de mascotas creada para
               apoyar a los animales durante su recuperación, confort y cuidado diario.
               Sus productos están diseñados con amor, practicidad y bienestar animal
               como prioridad.
             </p>
             <div className="faj-actions">
               <a
-                href="https://wa.me/573145602688?text=Hola,%20me%20interesa%20Fajicats"
+                href="https://wa.me/573145602688?text=Hola,%20me%20interesa%20Faji cat"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-whatsapp"

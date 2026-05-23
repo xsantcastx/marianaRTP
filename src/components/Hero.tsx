@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="hero-content">
           <div className="hero-eye">
             <PawPrint size={12} />
-            Profesional Veterinaria &amp; Fundadora de Fajicats
+            Profesional Veterinaria &amp; Fundadora de Faji cat
           </div>
 
           <h1 className="hero-name">
@@ -54,7 +54,7 @@ export default function Hero() {
 
           <div className="hero-actions">
             <a href="#cv"       className="btn btn-primary">Ver CV</a>
-            <a href="#fajicats" className="btn btn-outline">Descubrir Fajicats</a>
+            <a href="#fajicats" className="btn btn-outline">Descubrir Faji cat</a>
             <a href="#contact"  className="btn btn-ghost">Contactar</a>
           </div>
 
@@ -94,7 +94,7 @@ export default function Hero() {
             <div className="hero-badge">
               <div className="hero-bdot" />
               <div className="hero-bname">
-                <span className="hero-btitle">Fajicats</span>
+                <span className="hero-btitle">Faji cat</span>
                 <span className="hero-bsub">Pet Care · Colombia</span>
               </div>
             </div>

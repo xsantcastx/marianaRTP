@@ -6,7 +6,7 @@ import { getEmailJsConfig } from '../firebase'
 const subjects = [
   'Oportunidades de Empleo',
   'Colaboración Profesional',
-  'Productos Fajicats',
+  'Productos Faji cat',
   'Consulta General',
 ]
 
@@ -95,7 +95,7 @@ export default function Contact() {
           </h2>
           <p className="sbody">
             Ya sea para una oportunidad laboral en España, una colaboración
-            con Fajicats o una consulta veterinaria, estoy disponible para
+            con Faji cat o una consulta veterinaria, estoy disponible para
             conectar y explorar sinergias.
           </p>
 

@@ -3,7 +3,7 @@ import { PawPrint } from './icons'
 const navLinks = [
   { href: '#about',    label: 'Sobre Mí' },
   { href: '#cv',       label: 'CV' },
-  { href: '#fajicats', label: 'Fajicats' },
+  { href: '#fajicats', label: 'Faji cat' },
   { href: '#gallery',  label: 'Galería' },
   { href: '#services', label: 'Servicios' },
   { href: '#contact',  label: 'Contacto' },
@@ -25,7 +25,7 @@ export default function Footer() {
           <div>
             <p className="ftr-brand-name">Mariana Restrepo</p>
             <p className="ftr-brand-desc">
-              Médica veterinaria colombiana, fundadora de Fajicats y estudiante
+              Médica veterinaria colombiana, fundadora de Faji cat y estudiante
               de Máster en Inocuidad Alimentaria en España. Apasionada por el
               bienestar animal y la innovación en salud.
             </p>
@@ -74,9 +74,9 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Fajicats column */}
+          {/* Faji cat column */}
           <div>
-            <p className="ftr-col-ttl">Fajicats</p>
+            <p className="ftr-col-ttl">Faji cat</p>
             <div className="ftr-links">
               {fajicatsLinks.map(l => (
                 <a key={l.label} href={l.href} className="ftr-lk">{l.label}</a>

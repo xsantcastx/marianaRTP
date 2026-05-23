@@ -20,7 +20,7 @@ const experience = [
   {
     year: '2021 – Presente',
     title: 'Fundadora & CEO',
-    org: 'Fajicats — Colombia',
+    org: 'Faji cat — Colombia',
     desc: 'Creación y gestión de una marca de cuidado de mascotas especializada en prendas postquirúrgicas, manejo de operaciones, diseño de producto y atención al cliente.',
   },
   {

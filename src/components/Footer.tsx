@@ -25,13 +25,13 @@ export default function Footer() {
           <div>
             <p className="ftr-brand-name">Mariana Restrepo</p>
             <p className="ftr-brand-desc">
-              Médica veterinaria colombiana, fundadora de Faji cat y estudiante
-              de Máster en Inocuidad Alimentaria en España. Apasionada por el
-              bienestar animal y la innovación en salud.
+              Médica veterinaria, fundadora de Faji cat y estudiante de Máster
+              en Seguridad Alimentaria en España. Apasionada por el bienestar
+              animal y la innovación en salud.
             </p>
             <div className="ftr-socs">
               <a
-                href="https://linkedin.com/in/marianarestrepo"
+                href="https://www.linkedin.com/in/mariana-restrepo-ospina-367aa7377"
                 target="_blank"
                 rel="noreferrer"
                 className="ftr-soc"

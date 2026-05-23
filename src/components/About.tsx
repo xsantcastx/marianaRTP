@@ -55,23 +55,21 @@ export default function About() {
           </blockquote>
 
           <p className="about-p">
-            Soy Mariana Restrepo, médica veterinaria colombiana con una profunda pasión
-            por el bienestar animal y el cuidado de mascotas. Mi trayectoria profesional
-            comenzó en Colombia, donde desarrollé experiencia práctica en atención
-            clínica veterinaria, servicio al cliente en negocios relacionados con animales
-            y defensa del bienestar animal.
+            Soy Mariana Restrepo, médica veterinaria con una profunda vocación por el
+            bienestar animal y el cuidado de mascotas. A lo largo de mi carrera he
+            desarrollado experiencia práctica en atención clínica, emprendimiento en
+            el sector pet care y defensa activa del bienestar animal.
           </p>
           <p className="about-p">
-            Soy la fundadora de <strong>Faji cat</strong>, una marca colombiana de cuidado
-            de mascotas especializada en prendas postquirúrgicas y accesorios de bienestar
-            para gatos y perros — productos nacidos de mi propia experiencia clínica y
-            amor por los animales.
+            Soy la fundadora de <strong>Faji cat</strong>, una marca de cuidado de
+            mascotas especializada en prendas postquirúrgicas y accesorios de bienestar
+            para gatos y perros — productos nacidos directamente de mi experiencia
+            clínica y del amor por los animales.
           </p>
           <p className="about-p">
-            Actualmente radicada en España, curso un <strong>Máster en Inocuidad Alimentaria</strong>,
-            ampliando mi perfil profesional hacia la seguridad alimentaria, el control de
-            calidad y la salud pública, añadiendo una nueva dimensión a mi formación
-            veterinaria.
+            Actualmente radicada en España, curso un <strong>Máster en Seguridad Alimentaria</strong>,
+            ampliando mi perfil hacia la inocuidad, el control de calidad y la salud
+            pública — una nueva dimensión que enriquece mi formación veterinaria.
           </p>
 
           <div className="about-tags">

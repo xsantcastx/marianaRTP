@@ -1,60 +1,65 @@
 import { useInView } from '../hooks/useInView'
-import { CheckCircle } from './icons'
 
 const education = [
   {
-    year: '2024 – Presente',
-    title: 'Máster en Inocuidad Alimentaria',
-    org: 'Universidad, España',
-    desc: 'Especialización en seguridad alimentaria, control de calidad y salud pública, con enfoque en normativa europea e inspección de alimentos.',
+    year: '2026 – Presente',
+    title: 'Máster en Seguridad Alimentaria',
+    org: 'España',
+    desc: 'En curso. Normativa sanitaria, APPCC y control de calidad. Complementa el perfil veterinario con conocimientos en inocuidad y salud pública europea.',
   },
   {
-    year: '2015 – 2020',
-    title: 'Médica Veterinaria',
-    org: 'Universidad de Colombia',
-    desc: 'Licenciada en Medicina Veterinaria con énfasis en medicina de pequeños animales, cirugía y bienestar animal.',
+    year: '2017 – 2022',
+    title: 'Grado en Medicina Veterinaria y Zootecnia',
+    org: 'Universidad Lasallista',
+    desc: 'Formación clínica integral en farmacología veterinaria, nutrición animal y medicina de pequeños animales.',
   },
 ]
 
 const experience = [
   {
-    year: '2021 – Presente',
-    title: 'Fundadora & CEO',
-    org: 'Faji cat — Colombia',
-    desc: 'Creación y gestión de una marca de cuidado de mascotas especializada en prendas postquirúrgicas, manejo de operaciones, diseño de producto y atención al cliente.',
+    year: '2022 – 2024',
+    title: 'Veterinaria Independiente',
+    org: 'Atención Domiciliaria',
+    desc: 'Atención personalizada a propietarios con orientación sobre salud, alimentación y cuidados preventivos. Asesoramiento de productos especializados (antiparasitarios, suplementos, higiene) y prescripción de tratamientos farmacológicos.',
   },
   {
-    year: '2019 – 2021',
-    title: 'Médica Veterinaria Clínica',
-    org: 'Clínica Veterinaria, Colombia',
-    desc: 'Atención y diagnóstico de pequeños animales, cirugías menores, orientación a propietarios y gestión de historiales clínicos.',
+    year: '2022 – 2024',
+    title: 'Docente de Medicina Veterinaria',
+    org: 'Universidad',
+    desc: 'Comunicación de conceptos técnicos complejos a estudiantes y públicos diversos. Capacidad demostrada para enseñar y orientar con paciencia y empatía.',
   },
   {
-    year: '2018 – 2019',
-    title: 'Asesora Comercial',
-    org: 'Tienda de Mascotas, Colombia',
-    desc: 'Asesoramiento especializado en nutrición, accesorios y salud para mascotas; fidelización de clientes y visual merchandising.',
+    year: '2021 – 2024',
+    title: 'Consultas y Asesoramiento Veterinario',
+    org: 'Veterinaria Freelance',
+    desc: 'Resolución de consultas sobre patologías comunes, nutrición y comportamiento animal. Recomendación de productos de salud y bienestar adaptados a cada caso. Gestión autónoma de agenda y atención multicanal.',
+  },
+  {
+    year: '2021 – 2022',
+    title: 'Rotación Clínica',
+    org: 'Práctica Clínica Veterinaria',
+    desc: 'Trato directo con propietarios durante consultas, cirugías y seguimientos. Aplicación práctica de farmacología, diagnóstico y tratamientos bajo protocolos de bioseguridad.',
+  },
+  {
+    year: '2020 – 2022',
+    title: 'Voluntaria — Atención y Coordinación',
+    org: 'Campañas de Esterilización',
+    desc: 'Atención a propietarios en jornadas masivas, gestión de turnos e información. Coordinación en equipos multidisciplinares bajo alta presión y volumen de trabajo.',
   },
 ]
 
 const skills = [
-  { name: 'Medicina y Clínica Veterinaria', pct: 95 },
-  { name: 'Bienestar Animal',               pct: 98 },
-  { name: 'Servicio al Cliente',            pct: 90 },
-  { name: 'Inocuidad Alimentaria',          pct: 72 },
-  { name: 'Desarrollo de Producto',         pct: 82 },
-  { name: 'Gestión Empresarial',            pct: 78 },
+  { name: 'Atención al Cliente',      pct: 95 },
+  { name: 'Bienestar Animal',         pct: 98 },
+  { name: 'Farmacología Veterinaria', pct: 88 },
+  { name: 'Nutrición Animal',         pct: 85 },
+  { name: 'Seguridad Alimentaria',    pct: 72 },
+  { name: 'Comunicación & Empatía',   pct: 92 },
 ]
 
 const languages = [
-  { flag: '🇨🇴', name: 'Español', level: 'Lengua materna', dots: 5 },
-  { flag: '🇬🇧', name: 'English', level: 'Profesional B2', dots: 3 },
-]
-
-const certs = [
-  { name: 'Bienestar Animal — Certificación WSAVA', issuer: 'WSAVA, 2022' },
-  { name: 'Inocuidad Alimentaria — HACCP',          issuer: 'FAO / Online, 2023' },
-  { name: 'Gestión de Empresas para Veterinarios',  issuer: 'VetBusiness, 2021' },
+  { flag: '🇨🇴', name: 'Español', level: 'Lengua materna',       dots: 5 },
+  { flag: '🇬🇧', name: 'Inglés',  level: 'Nivel profesional B2', dots: 3 },
 ]
 
 export default function CV() {
@@ -73,9 +78,9 @@ export default function CV() {
           <div className="eyebrow">Curriculum Vitae</div>
           <h2 className="sh2">Trayectoria <em>Profesional</em></h2>
           <p className="sbody">
-            Veterinaria colombiana con más de 5 años de experiencia clínica,
-            emprendimiento y servicio al cliente — actualmente expandiendo su perfil
-            en España con un Máster en Inocuidad Alimentaria.
+            Médica veterinaria con formación clínica integral y experiencia directa en el trato
+            con propietarios de mascotas, asesoramiento en salud, nutrición y bienestar animal.
+            Actualmente cursando un Máster en Seguridad Alimentaria en España.
           </p>
         </div>
 
@@ -124,7 +129,7 @@ export default function CV() {
             </div>
           </div>
 
-          {/* ── RIGHT COLUMN: Skills + Languages + Certs ── */}
+          {/* ── RIGHT COLUMN: Skills + Languages ── */}
           <div
             ref={c2Ref as React.RefObject<HTMLDivElement>}
             className={`cv-col reveal-r${c2In ? ' in-view' : ''}`}
@@ -162,22 +167,6 @@ export default function CV() {
                       {Array.from({ length: 5 }).map((_, i) => (
                         <div key={i} className={`cv-ldot${i < l.dots ? ' on' : ''}`} />
                       ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Certifications */}
-            <div>
-              <div className="cv-gl">Certificaciones</div>
-              <div className="cv-certs">
-                {certs.map(c => (
-                  <div key={c.name} className="cv-cert">
-                    <div className="cv-ci"><CheckCircle size={20} /></div>
-                    <div className="cv-ct">
-                      <span className="cv-cn">{c.name}</span>
-                      <span className="cv-cis">{c.issuer}</span>
                     </div>
                   </div>
                 ))}

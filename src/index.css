@@ -40,7 +40,7 @@
 
 /* ── RESET ─────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 body {
   font-family: var(--font-body);
   background: var(--cream);
@@ -103,8 +103,8 @@ input, textarea, select { font-family: inherit; }
 
 /* ── LAYOUT ────────────────────────────────────────────── */
 .ctr { max-width: var(--cmax); margin: 0 auto; padding: 0 40px; }
-.section     { padding: var(--spad) 0; background: var(--cream); }
-.section-alt { padding: var(--spad) 0; background: var(--warm-beige); }
+.section     { padding: var(--spad) 0; background: var(--cream);      overflow-x: clip; }
+.section-alt { padding: var(--spad) 0; background: var(--warm-beige); overflow-x: clip; }
 .section-drk { padding: var(--spad) 0; background: var(--dark-brown); position: relative; overflow: hidden; }
 
 /* ── TYPOGRAPHY ────────────────────────────────────────── */

@@ -55,10 +55,9 @@ export default function Fajicats() {
           </div>
           <div>
             <p className="faj-desc">
-              Faji cat es una marca colombiana de cuidado de mascotas creada para
-              apoyar a los animales durante su recuperación, confort y cuidado diario.
-              Sus productos están diseñados con amor, practicidad y bienestar animal
-              como prioridad.
+              Faji cat es una marca de cuidado de mascotas creada para apoyar a los
+              animales durante su recuperación, confort y cuidado diario. Sus productos
+              están diseñados con amor, practicidad y el bienestar animal como prioridad.
             </p>
             <div className="faj-actions">
               <a

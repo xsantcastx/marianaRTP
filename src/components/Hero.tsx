@@ -42,14 +42,14 @@ export default function Hero() {
 
           <p className="hero-role">
             Especialista en Cuidado Animal ·{' '}
-            <span>Máster en Inocuidad Alimentaria</span>{' '}
+            <span>Máster en Seguridad Alimentaria</span>{' '}
             · Colombia &amp; España
           </p>
 
           <p className="hero-desc">
-            Apasionada por el bienestar animal, la medicina veterinaria y el
-            desarrollo de soluciones de cuidado para mascotas. Actualmente
-            expandiendo su perfil profesional en España.
+            Apasionada por el bienestar animal y la medicina veterinaria.
+            Fundadora de Faji cat y actualmente cursando un Máster en
+            Seguridad Alimentaria en España.
           </p>
 
           <div className="hero-actions">
@@ -61,7 +61,7 @@ export default function Hero() {
           <div className="hero-social">
             <div className="hero-soc-rule" />
             <a
-              href="https://linkedin.com/in/marianarestrepo"
+              href="https://www.linkedin.com/in/mariana-restrepo-ospina-367aa7377"
               target="_blank"
               rel="noreferrer"
               className="hero-soc-lk"

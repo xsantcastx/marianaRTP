@@ -10,7 +10,7 @@ const education = [
   },
   {
     year: '2015 – 2020',
-    title: 'Médica Veterinaria y Zootecnista',
+    title: 'Médica Veterinaria',
     org: 'Universidad de Colombia',
     desc: 'Licenciada en Medicina Veterinaria con énfasis en medicina de pequeños animales, cirugía y bienestar animal.',
   },

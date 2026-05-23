@@ -47,9 +47,8 @@ const skills = [
 ]
 
 const languages = [
-  { flag: '🇨🇴', name: 'Español',  level: 'Lengua materna',  dots: 5 },
-  { flag: '🇬🇧', name: 'English',  level: 'Profesional B2',  dots: 4 },
-  { flag: '🇫🇷', name: 'Français', level: 'Básico A2',       dots: 2 },
+  { flag: '🇨🇴', name: 'Español', level: 'Lengua materna', dots: 5 },
+  { flag: '🇬🇧', name: 'English', level: 'Profesional B2', dots: 3 },
 ]
 
 const certs = [

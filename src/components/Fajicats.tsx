@@ -62,7 +62,7 @@ export default function Fajicats() {
             </p>
             <div className="faj-actions">
               <a
-                href="https://wa.me/573000000000?text=Hola,%20me%20interesa%20Fajicats"
+                href="https://wa.me/573145602688?text=Hola,%20me%20interesa%20Fajicats"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-whatsapp"

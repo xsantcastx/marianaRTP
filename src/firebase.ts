@@ -23,9 +23,11 @@ rc.settings.minimumFetchIntervalMillis = 3600000; // 1 hour cache
 
 export async function getEmailJsConfig() {
   await fetchAndActivate(rc);
-  return {
-    serviceId:  getString(rc, 'emailjs_service_id'),
-    templateId: getString(rc, 'emailjs_template_id'),
-    publicKey:  getString(rc, 'emailjs_public_key'),
-  };
+  const serviceId  = getString(rc, 'emailjs_service_id');
+  const templateId = getString(rc, 'emailjs_template_id');
+  const publicKey  = getString(rc, 'emailjs_public_key');
+  if (!serviceId || !templateId || !publicKey) {
+    throw new Error('EmailJS config not published in Firebase Remote Config');
+  }
+  return { serviceId, templateId, publicKey };
 }

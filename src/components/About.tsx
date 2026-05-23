@@ -28,7 +28,7 @@ export default function About() {
 
           <div className="about-photo">
             <img
-              src="/imgs/img_4.jpeg"
+              src="/imgs/img_hero2.jpeg"
               alt="Mariana Restrepo con paciente en clínica"
             />
           </div>

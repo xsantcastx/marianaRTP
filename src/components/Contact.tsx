@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { useInView } from '../hooks/useInView'
+import { getEmailJsConfig } from '../firebase'
 
 const subjects = [
   'Oportunidades de Empleo',
@@ -65,12 +66,14 @@ export default function Contact() {
     e.preventDefault()
     setSending(true)
     setError(false)
-    emailjs
-      .send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        { from_name: name, from_email: email, subject, message },
-        { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY },
+    getEmailJsConfig()
+      .then(({ serviceId, templateId, publicKey }) =>
+        emailjs.send(
+          serviceId,
+          templateId,
+          { from_name: name, from_email: email, subject, message },
+          { publicKey },
+        )
       )
       .then(() => { setSent(true) })
       .catch(() => { setError(true) })

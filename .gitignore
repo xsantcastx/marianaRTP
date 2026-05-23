@@ -14,6 +14,10 @@ dist-ssr
 
 # Local tooling
 .omc/
+.claude/
+
+# Raw image uploads (originals kept locally, clean copies in public/imgs/)
+public/images_upload/
 
 # Firebase
 .firebase/
